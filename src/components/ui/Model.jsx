@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
+// This is basically some model where 
 const Model = ({ children, open, onClose, className = '' }) => {
     const dialog = useRef();
     useEffect(() => {

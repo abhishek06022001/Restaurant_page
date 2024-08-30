@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import MealsItem from './MealsItem';
-
 function Mains() {
     const [loadedMeals, setLoadedMeals] = useState([]);
     useEffect(() => {

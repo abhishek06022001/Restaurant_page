@@ -38,6 +38,7 @@ const cartReducer = (state, action) => {
         return { ...state, items: updatedItems }
     }
 }
+
 export const CartContextProvider = ({ children }) => {
     console.log("rerendered cartContextProvider");
     const [cart, dispatchCartAction] = useReducer(cartReducer, { items: [] });

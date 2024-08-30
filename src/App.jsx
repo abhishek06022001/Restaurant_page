@@ -12,7 +12,9 @@ function App() {
       <CartContextProvider>
 
         <Header />
+        {/* Header is understood */}
         <Mains />
+        {/* Mains Page me bas meals set hue hain and they are just getting showed here ;0 */}
         <Cart />
         <CheckOut />
 

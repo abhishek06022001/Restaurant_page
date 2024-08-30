@@ -1,6 +1,5 @@
 import React from 'react'
 import { currencyFormatter } from '../utils/Formatting'
-
 function CartItem({ children, quantity, name, price, onIncrease, onDecrease }) {
     return (
         <li className=' cart-item' >
@@ -15,5 +14,4 @@ function CartItem({ children, quantity, name, price, onIncrease, onDecrease }) {
         </li>
     )
 }
-
 export default CartItem

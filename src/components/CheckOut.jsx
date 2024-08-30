@@ -5,7 +5,6 @@ import UserProgressContext from '../store/UserProgressContext'
 import { currencyFormatter } from '../utils/Formatting';
 import Input from './ui/Input';
 import Button from './ui/Button';
-
 function CheckOut() {
     const cartCtx = useContext(CartContext);
     const userProgressCtx = useContext(UserProgressContext);
